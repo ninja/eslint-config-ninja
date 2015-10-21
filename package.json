@@ -1,0 +1,10 @@
+{
+  "description": "Ninja ESLint Configuration",
+  "license": "Apache-2.0",
+  "name": "eslint-config-voicekick",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ninja/eslint-config-ninja"
+  },
+  "version": "1.0.0"
+}
