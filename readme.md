@@ -6,7 +6,7 @@ npm install eslint-config-ninja --save-dev
 Add file: `.eslintrc`
 ```JSON
 {
-  "extends": "voicekick"
+  "extends": "ninja"
 }
 ```
 
