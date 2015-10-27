@@ -1,13 +1,13 @@
 Install
+
 ```bash
-npm install eslint-config-ninja --save-dev
+npm install babel-eslint eslint eslint-config-ninja eslint-plugin-react --save-dev
 ```
 
 Add file: `.eslintrc`
-```JSON
-{
-  "extends": "ninja"
-}
+
+```json
+{"extends": "ninja"}
 ```
 
 For more details, see [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs.html).
