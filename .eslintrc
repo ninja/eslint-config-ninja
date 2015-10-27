@@ -1,6 +1,6 @@
 {
-  "env": {"node": true},
   "ecmaFeatures": {"jsx": true},
+  "env": {"node": true},
   "extends": "eslint:recommended",
   "parser": "babel-eslint",
   "plugins": ["eslint-plugin-react"],
