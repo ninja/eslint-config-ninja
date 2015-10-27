@@ -13,8 +13,8 @@
     "url": "git://github.com/ninja/eslint-config-ninja"
   },
   "scripts": {
-    "lint": "eslint . || true",
-    "test": "eslint . || true"
+    "prepublish": "npm test",
+    "test": "eslint ."
   },
   "version": "1.0.3"
 }
