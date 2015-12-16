@@ -49,6 +49,7 @@
     "operator-assignment": [1, "always"],
     "operator-linebreak": [1, "after"],
     "padded-blocks": [1, "never"],
+    "prefer-const": 1,
     "quote-props": [1, "as-needed"],
     "quotes": [1, "single"],
     "semi": [2, "always"],
