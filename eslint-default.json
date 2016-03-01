@@ -19,6 +19,7 @@
     "func-style": [2, "declaration"],
     "indent": [2, 2, {"SwitchCase": 1, "VariableDeclarator": 1}],
     "key-spacing": 1,
+    "keyword-spacing": 1,
     "linebreak-style": [2, "unix"],
     "max-nested-callbacks": [1, 6],
     "new-cap": 2,
@@ -54,12 +55,10 @@
     "quotes": [1, "single"],
     "semi": [2, "always"],
     "semi-spacing": [1, {"after": true, "before": false}],
-    "space-after-keywords": [1, "always"],
     "space-before-blocks": [1, "always"],
     "space-before-function-paren": [1, "always"],
     "space-in-parens": [1, "never"],
     "space-infix-ops": [1],
-    "space-return-throw-case": [1],
     "space-unary-ops": [1],
     "spaced-comment": [1, "always"]
   }
