@@ -52,5 +52,5 @@
     "release": "standard-version",
     "test": "eslint-find-rules --unused"
   },
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
