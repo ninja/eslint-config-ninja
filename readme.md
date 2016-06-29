@@ -1,25 +1,35 @@
-## Install for a node-only environment.
+#JavaScript linting rules and dependencies in one module.
+
+## Install.
 
 ```bash
-npm install eslint eslint-config-ninja --save-dev
+npm i -D eslint-config-ninja
 ```
 
-Add file: `.eslintrc`
+## Add config to package.json.
 
 ```json
-{"extends": "ninja"}
+{
+  "eslintConfig": {
+    "extends": "ninja"
+  }
+}
 ```
 
-## Install for a babel environment.
+## Add lint as a script to package.json.
+
+```json
+{
+  "scripts": {
+    "lint": "eslint . --fix" 
+  }
+}
+```
+
+## Lint your JavaScript.
 
 ```bash
-npm install babel-eslint eslint eslint-config-ninja eslint-plugin-react --save-dev
+npm run lint 
 ```
 
-Add file: `.eslintrc`
-
-```json
-{"extends": "ninja/babel"}
-```
-
-For more details, see [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs.html).
+For more details, see ESLint's [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs.html).

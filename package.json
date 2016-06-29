@@ -1,7 +1,57 @@
 {
-  "description": "Ninja ESLint Configuration",
+  "author": "Jamie Hoover",
+  "bugs": {
+    "url": "https://github.com/ninja/eslint-config-ninja/issues"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "maxSubjectLength": 72
+    }
+  },
+  "dependencies": {
+    "eslint": "^2.13.1",
+    "eslint-import-resolver-webpack": "^0.3.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "jsonlint": "^1.6.2",
+    "lodash": "^4.13.1"
+  },
+  "description": "ESLint Configuration for Ninjas.",
+  "devDependencies": {
+    "eslint-find-rules": "^1.10.0",
+    "ghooks": "^1.2.4",
+    "standard-version": "^2.3.1",
+    "validate-commit-msg": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "homepage": "https://github.com/ninja/eslint-config-ninja",
+  "keywords": [
+    "ESLint",
+    "lint",
+    "ninja",
+    "rules"
+  ],
   "license": "Apache-2.0",
+  "main": "index.js",
   "name": "eslint-config-ninja",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninja/eslint-config-ninja.git"
+  },
+  "scripts": {
+    "lint": "eslint . --fix || true",
+    "release": "standard-version",
+    "test": "eslint-find-rules --unused"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/ninja/eslint-config-ninja"
