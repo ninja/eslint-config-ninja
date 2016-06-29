@@ -45,16 +45,12 @@
   "name": "eslint-config-ninja",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninja/eslint-config-ninja.git"
+    "url": "git://github.com/ninja/eslint-config-ninja"
   },
   "scripts": {
     "lint": "eslint . --fix || true",
     "release": "standard-version",
     "test": "eslint-find-rules --unused"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ninja/eslint-config-ninja"
-  },
-  "version": "1.2.1"
+  "version": "2.0.0"
 }
