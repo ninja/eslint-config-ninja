@@ -17,5 +17,8 @@ module.exports = {
   },
   plugins: ['jsx-a11y', 'import', 'react'],
   rules,
-  settings: {'import/resolver': 'webpack'},
+  settings: {
+    'import/ignore': ['ninja'],
+    'import/resolver': 'webpack',
+  },
 };
