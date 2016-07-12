@@ -16,6 +16,7 @@ module.exports = {
   'import/no-named-as-default-member': 'error',
   'import/no-namespace': 'error',
   'import/no-nodejs-modules': 'off',
+  'import/no-restricted-paths': 'off',
   'import/no-unresolved': ['error', {commonjs: true}],
   'import/order': 'error',
   'import/prefer-default-export': 'error',
