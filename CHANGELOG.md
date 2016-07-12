@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/ninja/eslint-config-ninja/compare/v2.2.1...v2.3.0) (2016-07-12)
+
+
+### Features
+
+* **react:** Adjust JSX closing bracket location to match similar rules. ([75c18fd](https://github.com/ninja/eslint-config-ninja/commit/75c18fd))
+
+
+
 <a name="2.2.1"></a>
 ## [2.2.1](https://github.com/ninja/eslint-config-ninja/compare/v2.2.0...v2.2.1) (2016-07-05)
 
