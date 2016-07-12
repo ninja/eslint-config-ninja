@@ -4,7 +4,7 @@ module.exports = {
   'react/display-name': 'error',
   'react/forbid-prop-types': ['error', {forbid: ['any']}],
   'react/jsx-boolean-value': 'error',
-  'react/jsx-closing-bracket-location': ['error', 'after-props'],
+  'react/jsx-closing-bracket-location': 'error',
   'react/jsx-curly-spacing': 'error',
   'react/jsx-equals-spacing': 'error',
   'react/jsx-first-prop-new-line': 'error',
