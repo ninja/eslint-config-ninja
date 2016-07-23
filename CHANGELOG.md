@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.3.2"></a>
+## [2.3.2](https://github.com/ninja/eslint-config-ninja/compare/v2.3.1...v2.3.2) (2016-07-23)
+
+
+### Bug Fixes
+
+* **core:** Ignore 3 as a magic number. ([a98f8df](https://github.com/ninja/eslint-config-ninja/commit/a98f8df))
+
+
+
 <a name="2.3.1"></a>
 ## [2.3.1](https://github.com/ninja/eslint-config-ninja/compare/v2.3.0...v2.3.1) (2016-07-19)
 
