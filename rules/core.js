@@ -118,7 +118,7 @@ module.exports = {
   'no-lonely-if': 'error',
   'no-loop-func': 'error',
   'no-magic-numbers': ['error', {
-    ignore: [0, 1, 2],
+    ignore: [0, 1, 2, 3],
     ignoreArrayIndexes: true,
     enforceConst: true,
     detectObjects: false,
