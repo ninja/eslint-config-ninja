@@ -1,5 +1,4 @@
-const tabWidth = 2;
-const errorName = 'error';
+const {ERROR_NAME, TAB_WIDTH} = require('../constants');
 
 module.exports = {
   'accessor-pairs': 'error',
@@ -32,11 +31,11 @@ module.exports = {
   'generator-star-spacing': ['error', 'both'],
   'global-require': 'error',
   'guard-for-in': 'error',
-  'handle-callback-err': ['error', errorName],
+  'handle-callback-err': ['error', ERROR_NAME],
   'id-blacklist': 'off',
   'id-length': 'off',
   'id-match': 'off',
-  'indent': ['error', tabWidth, {SwitchCase: 1}],
+  'indent': ['error', TAB_WIDTH, {SwitchCase: 1}],
   'init-declarations': 'off',
   'jsx-quotes': 'error',
   'key-spacing': 'error',
@@ -47,7 +46,7 @@ module.exports = {
   'max-len': ['off', { // Disabled until https://github.com/eslint/eslint/issues/5805 is resolved.
     ignoreComments: true,
     ignoreUrls: true,
-    tabWidth,
+    tabWidth: TAB_WIDTH,
   }],
   'max-lines': ['error', {
     max: 300,

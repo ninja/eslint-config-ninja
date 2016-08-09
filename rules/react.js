@@ -1,4 +1,4 @@
-const tabWidth = 2;
+const {TAB_WIDTH} = require('../constants');
 
 module.exports = {
   'react/display-name': 'error',
@@ -9,7 +9,7 @@ module.exports = {
   'react/jsx-equals-spacing': 'error',
   'react/jsx-first-prop-new-line': 'error',
   'react/jsx-handler-names': 'error',
-  'react/jsx-indent': ['error', tabWidth],
+  'react/jsx-indent': ['error', TAB_WIDTH],
   'react/jsx-indent-props': 'off',
   'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
   'react/jsx-key': 'error',
