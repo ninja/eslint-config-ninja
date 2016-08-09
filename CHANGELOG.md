@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/ninja/eslint-config-ninja/compare/v2.3.2...v2.4.0) (2016-08-09)
+
+
+### Features
+
+* **core:** Add no-tabs rule. ([5678ef0](https://github.com/ninja/eslint-config-ninja/commit/5678ef0))
+* **react:** Updates rules for eslint-plugin-react 6.0.0. ([42e558c](https://github.com/ninja/eslint-config-ninja/commit/42e558c))
+* **sorting:** Adds sort-object-props. ([ede7b63](https://github.com/ninja/eslint-config-ninja/commit/ede7b63))
+
+
+
 <a name="2.3.2"></a>
 ## [2.3.2](https://github.com/ninja/eslint-config-ninja/compare/v2.3.1...v2.3.2) (2016-07-23)
 
