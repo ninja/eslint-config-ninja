@@ -170,6 +170,7 @@ module.exports = {
   'no-spaced-func': 'error',
   'no-sparse-arrays': 'error',
   'no-sync': 'off',
+  'no-tabs': 'error',
   'no-ternary': 'off',
   'no-this-before-super': 'error',
   'no-throw-literal': 'error',
