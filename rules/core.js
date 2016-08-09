@@ -117,10 +117,10 @@ module.exports = {
   'no-lonely-if': 'error',
   'no-loop-func': 'error',
   'no-magic-numbers': ['error', {
+    detectObjects: false,
+    enforceConst: true,
     ignore: [0, 1, 2, 3],
     ignoreArrayIndexes: true,
-    enforceConst: true,
-    detectObjects: false,
   }],
   'no-mixed-operators': 'error',
   'no-mixed-requires': 'error',
