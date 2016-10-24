@@ -1,38 +1,38 @@
 {
-	"config": {
-		"ghooks": {
-			"commit-msg": "validate-commit-msg"
-		},
-		"validate-commit-msg": {
-			"maxSubjectLength": 72
-		}
-	},
-	"peerDependencies": {
-		"eslint": "3.8.1",
-		"eslint-import-resolver-webpack": "0.6.0",
-		"eslint-plugin-import": "2.0.1",
-		"eslint-plugin-jsx-a11y": "2.2.3",
-		"eslint-plugin-react": "6.4.1"
-	},
-	"devDependencies": {
-		"eslint": "3.8.1",
-		"eslint-find-rules": "1.14.0",
-		"eslint-import-resolver-webpack": "0.6.0",
-		"eslint-plugin-import": "2.0.1",
-		"eslint-plugin-jsx-a11y": "2.2.3",
-		"eslint-plugin-react": "6.4.1",
-		"ghooks": "1.3.2",
-		"jsonlint": "1.6.2",
-		"standard-version": "3.0.0",
-		"validate-commit-msg": "2.8.2",
-		"webpack": "1.13.2"
-	},
-	"eslintConfig": {
-		"extends": "./index.js"
-	},
-	"license": "Apache-2.0",
-	"main": "index.js",
-	"name": "eslint-config-ninja",
-	"repository": "git://github.com/ninja/eslint-config-ninja",
-	"version": "2.4.0"
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "maxSubjectLength": 72
+    }
+  },
+  "peerDependencies": {
+    "eslint": "3.8.1",
+    "eslint-import-resolver-webpack": "0.6.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "3.8.1",
+    "eslint-find-rules": "1.14.0",
+    "eslint-import-resolver-webpack": "0.6.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1",
+    "ghooks": "1.3.2",
+    "jsonlint": "1.6.2",
+    "standard-version": "3.0.0",
+    "validate-commit-msg": "2.8.2",
+    "webpack": "1.13.2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "eslint-config-ninja",
+  "repository": "git://github.com/ninja/eslint-config-ninja",
+  "version": "2.5.0"
 }
