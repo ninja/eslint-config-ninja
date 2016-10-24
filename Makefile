@@ -12,6 +12,8 @@ lint:
 
 release: unused
 	@standard-version
+	@git push --follow-tags origin master
+	@npm publish
 
 unused: lint
 	@eslint-find-rules --unused
