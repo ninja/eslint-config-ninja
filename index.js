@@ -1,13 +1,11 @@
 const rules = require('./rules/core');
 const rulesAccessibility = require('./rules/accessibility');
-const rulesImport = require('./rules/import');
 const rulesReact = require('./rules/react');
 
-Object.assign(rules, rulesAccessibility, rulesImport, rulesReact);
+Object.assign(rules, rulesAccessibility, rulesReact);
 
 module.exports = {
 	env: {
-		browser: true,
 		es6: true,
 		node: true,
 	},
@@ -15,10 +13,6 @@ module.exports = {
 		ecmaFeatures: {jsx: true},
 		sourceType: 'module',
 	},
-	plugins: ['jsx-a11y', 'import', 'react'],
+	plugins: ['jsx-a11y', 'react'],
 	rules,
-	settings: {
-		'import/core-modules': ['ninja'],
-		'import/resolver': 'webpack',
-	},
 };

@@ -8,12 +8,7 @@
     }
   },
   "peerDependencies": {
-    "eslint": "^3.8.1",
-    "eslint-import-resolver-webpack": "^0.6.0",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1",
-    "webpack": "^1.13.3 || ^2.1.0-beta || ^2.1.0"
+    "eslint": ">= 3"
   },
   "devDependencies": {
     "eslint": "3.9.0",
@@ -29,7 +24,7 @@
     "webpack": "2.1.0-beta.25"
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./browser.js"
   },
   "license": "Apache-2.0",
   "main": "index.js",
