@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.0"></a>
+# [2.7.0](https://github.com/ninja/eslint-config-ninja/compare/v2.6.2...v2.7.0) (2016-10-30)
+
+
+### Features
+
+* **browser:** Split browser into optional config. ([b698c0a](https://github.com/ninja/eslint-config-ninja/commit/b698c0a))
+
+
+
 <a name="2.6.2"></a>
 ## [2.6.2](https://github.com/ninja/eslint-config-ninja/compare/v2.6.1...v2.6.2) (2016-10-30)
 
