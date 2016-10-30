@@ -23,7 +23,7 @@ module.exports = {
 	'import/no-nodejs-modules': 'off',
 	'import/no-restricted-paths': 'off',
 	'import/no-unassigned-import': 'error',
-	'import/no-unresolved': ['error', {commonjs: true}],
+	'import/no-unresolved': 'off',
 	'import/no-webpack-loader-syntax': 'error',
 	'import/order': 'error',
 	'import/prefer-default-export': 'error',
