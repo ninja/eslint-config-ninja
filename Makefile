@@ -1,13 +1,17 @@
-SHELL = /bin/bash
-PATH := node_modules/.bin:${PATH}
-INDEX = index lint release unused
+SHELL := /bin/bash
+CWD := $(shell pwd)
+NAME := $(shell node -e "console.log(require('./package.json').name)")
+PATH := ${CWD}/node_modules/.bin:${PATH}
+VERSION:= $(shell node -e "console.log(require('./package.json').version)")
 
-.PHONY: ${INDEX}
+version:
+	@echo ${NAME}@${VERSION}
 
-index:
-	@echo ${INDEX}
+install:
+	@yarn install
+	@yarn outdated
 
-lint:
+lint: install
 	@eslint --fix .
 
 release: unused
