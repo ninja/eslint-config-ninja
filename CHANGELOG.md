@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.2"></a>
+## [2.6.2](https://github.com/ninja/eslint-config-ninja/compare/v2.6.1...v2.6.2) (2016-10-30)
+
+
+### Bug Fixes
+
+* **no-unresolved:** Disable rule for container support. ([e5b00ee](https://github.com/ninja/eslint-config-ninja/commit/e5b00ee))
+
+
+
 <a name="2.6.1"></a>
 ## [2.6.1](https://github.com/ninja/eslint-config-ninja/compare/v2.6.0...v2.6.1) (2016-10-30)
 
