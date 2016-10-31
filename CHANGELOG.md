@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.0"></a>
+# [2.8.0](https://github.com/ninja/eslint-config-ninja/compare/v2.7.0...v2.8.0) (2016-10-31)
+
+
+### Features
+
+* **import:** Remove import plugin. ([8496bc6](https://github.com/ninja/eslint-config-ninja/commit/8496bc6))
+
+
+
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/ninja/eslint-config-ninja/compare/v2.6.2...v2.7.0) (2016-10-30)
 

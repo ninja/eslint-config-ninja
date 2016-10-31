@@ -27,5 +27,5 @@
   "main": "index.js",
   "name": "eslint-config-ninja",
   "repository": "git://github.com/ninja/eslint-config-ninja",
-  "version": "2.7.0"
+  "version": "2.8.0"
 }
