@@ -210,7 +210,10 @@ module.exports = {
 	'no-with': 'error',
 	'object-curly-newline': 'error',
 	'object-curly-spacing': 'error',
-	'object-property-newline': 'error',
+	'object-property-newline': [
+		'error',
+		{allowMultiplePropertiesPerLine: true},
+	],
 	'object-shorthand': 'error',
 	'one-var': ['error', 'never'],
 	'one-var-declaration-per-line': 'error',
