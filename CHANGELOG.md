@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.1"></a>
+## [2.8.1](https://github.com/ninja/eslint-config-ninja/compare/v2.8.0...v2.8.1) (2016-10-31)
+
+
+### Bug Fixes
+
+* **object-property-newline:** Relax to allow all props on one line. ([5527cf8](https://github.com/ninja/eslint-config-ninja/commit/5527cf8))
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/ninja/eslint-config-ninja/compare/v2.7.0...v2.8.0) (2016-10-31)
 
